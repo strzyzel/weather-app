@@ -1,0 +1,1 @@
+Simple app that shows weather based on location, using API, made for FCC course. Background picture changes depending on weather or whether it's night or day, can switch between Celsius and Fahrenheit, that kinda stuff.

@@ -1,0 +1,57 @@
+#temp, #temp-f {
+	font-size: 50px;
+	padding: 30px;
+}
+#desc {
+	text-transform: lowercase;
+	font-size: 25px;
+}
+.container {
+	color: white;
+	font-family: 'Encode Sans Expanded', sans-serif;
+}
+.weather {
+	position: absolute;
+	top: 50%;
+  	margin-top: -200px;
+  	left: 0;
+  	width: 100%;
+}
+.clear {
+	background-image: url("https://source.unsplash.com/6gBJYHJim9o");
+	background-size: cover;
+}
+
+.clear.night {
+	background-image: url("https://source.unsplash.com/aIiEOoEA5ps") !important;
+	background-size: cover;
+}
+.cloudy {
+	background-image: url("https://source.unsplash.com/nHn8VAejU7Q");
+	background-size: cover;
+}
+
+.cloudy.night {
+	background-image: url("https://source.unsplash.com/wGC7lGah18E") !important;
+	background-size: cover;
+}
+
+.rain {
+	background-image: url("https://source.unsplash.com/4raYy7dY2yw");
+	background-size: cover;
+}
+
+.rain.night {
+	background-image: url("https://source.unsplash.com/wy0CiGoYiKE") !important;
+	background-size: cover;
+}
+
+.snow {
+	background-image: url("https://source.unsplash.com/a3iBX9S96UY");
+	background-size: cover;
+}
+
+.snow.night {
+	background-image: url("https://source.unsplash.com/fwWj5Y1IgQg") !important;
+	background-size: cover;
+}

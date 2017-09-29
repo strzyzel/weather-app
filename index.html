@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Pogoda</title>
+	<script src="https://rawgithub.com/darkskyapp/skycons/master/skycons.js"></script>
+	<link rel="stylesheet" href="main.css">
+	<link href="https://fonts.googleapis.com/css?family=Encode+Sans+Expanded" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	
+</head>
+<body>
+	<div class="container">
+		<div class="weather">
+			<div class="row">
+				<div class="col-xs-12 text-center">
+					<h1><span id="city"></span><span id="country"></span></h1>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-12 text-center">
+					<p id="temp"></p>
+					<p id="temp-f" class="hide"></p>
+					<p id="desc"></p>
+					<canvas id="clear" class="hide" width="64" height="64"></canvas>
+					<canvas id="clear-night" class="hide" width="64" height="64"></canvas>
+					<canvas id="cloudy" class="hide" width="64" height="64"></canvas>
+					<canvas id="rain" class="hide" width="64" height="64"></canvas>
+					<canvas id="snow" class="hide" width="64" height="64"></canvas>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</body>
+<script src="main.js"></script>
+</html>
